@@ -4,6 +4,12 @@
     "ignore": [
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "app"
+      }
     ]
   }
 }
